@@ -1,0 +1,85 @@
+/* ApplyScholarship.css */
+
+/* Background Gradient */
+.bg-gradient {
+    background: linear-gradient(to right, #93c5fd, #6ee7b7);
+  }
+  
+  /* Form Container Styling */
+  .form-container {
+    background-color: white;
+    padding: 32px;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    transition: transform 0.5s ease;
+  }
+  
+  .form-container:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Heading Styling */
+  .form-heading {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #1f2937;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  
+  /* Form Label Styling */
+  label {
+    font-weight: 600;
+    color: #4b5563;
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  /* Input Fields and Textarea Styling */
+  input, textarea {
+    width: 90%;
+    padding: 16px;
+    margin-top: 8px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.3s;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.2);
+  }
+  
+  /* Submit Button Styling */
+  button {
+    background-color: #10b981;
+    color: white;
+    padding: 16px 32px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 100%;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  button:hover {
+    background-color: #047857;
+    transform: scale(1.05);
+  }
+  
+  /* Margin for Form Fields */
+  .mb-6 {
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Centering Form and Page */
+  .flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
